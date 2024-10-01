@@ -13,11 +13,12 @@ const MainSection = () => {
                     <h1 className=' text-5xl font-semibold'>Join us in growing <br /> your <span className='underline underline-offset-8 decoration-[#0696FC]'>business</span>.</h1>
                 </div>
                 <div className=" py-3 space-y-5 border border-x-transparent border-b-transparent border-[#8a8a8a4d]">
-                    <p className="py-4 font-bold xl:text-xl text-[#ECF3FE]">Elevate your business with businezz X, a professional Webflow template.</p>
-                    <button className=" bg-[#fff] font-extrabold py-3 px-5 rounded-full text-[#022B41] flex items-center">
+                    <p className="py-4 relative z-20 font-bold xl:text-xl text-[#ECF3FE]">Elevate your business with businezz X, a professional Webflow template.</p>
+                    <button className="relative z-20 bg-[#fff] font-extrabold py-3 px-5 rounded-full text-[#022B41] flex items-center">
                         Contact us
                         <MdArrowRightAlt className=" ml-2" />
                     </button>
+                    <div className="absolute -bottom-44 -left-20 size-80 rounded-full blur-3xl bg-[#003957] xl:-bottom-20"></div>
                 </div>
             </section>
             <ContactForm />

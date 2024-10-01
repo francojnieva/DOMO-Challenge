@@ -19,7 +19,7 @@ const NavbarMobile = () => {
                     
                     <ul className="menu bg-base-200 text-[#022B41] text-base font-extrabold min-h-full w-80 p-4 space-y-3">
                         <div className=" flex justify-end">
-                            <AiOutlineClose className="text-[#022B41] text-3xl" />
+                            <AiOutlineClose onClick={() => document.getElementById("my-drawer-4").checked = false} className="text-[#022B41] text-3xl" />
                         </div>
                         <li><a>Home</a></li>
                         <li><a>About</a></li>
@@ -27,7 +27,7 @@ const NavbarMobile = () => {
                         <li><a>Packages</a></li>
                         <li><a>Contact</a></li>
                         <li><a>Cart [0]</a></li>
-                        <li><a href="#" className=" rounded-full py-3 text-[#fff] mx-auto px-6 bg-[#022B41]">Free Consultation <MdArrowRightAlt /> </a></li>
+                        <li><a href="#" className=" rounded-full mt-3 py-3 text-[#fff] mx-auto px-6 bg-[#022B41]">Free Consultation <MdArrowRightAlt /> </a></li>
                     </ul>
                 </div>
             </div>

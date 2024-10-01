@@ -6,7 +6,7 @@ const ContactForm = () => {
 
     return (
         <section style={{ backgroundImage: backgroundImage }} className=' bg-cover h-screen bg-center py-8 flex items-center lg:w-[50%] lg:h-auto xl:p-12'>
-            <form method='POST' className=' bg-[#fff] w-[90%] mx-auto py-8 px-5 text-[#022B41] md:px-8 lg:w-[75%]'>
+            <form method='POST' className=' bg-[#fff] w-[90%] mx-auto py-8 px-5 text-[#022B41] md:px-8 md:w-[60%] lg:w-[75%]'>
                 <button className=" rounded-full py-2  font-extrabold text-xs px-3 border-2 border-[#1a3f58] mb-3">
                     Book your free consultation
                 </button>
