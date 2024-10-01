@@ -18,7 +18,7 @@ const MainSection = () => {
                         Contact us
                         <MdArrowRightAlt className=" ml-2" />
                     </button>
-                    <div className="absolute -bottom-44 -left-20 size-80 rounded-full blur-3xl bg-[#003957] xl:-bottom-20"></div>
+                    <div className="absolute -bottom-8 -left-44 w-96 h-48 rounded-full blur-3xl bg-[#003957] xl:-bottom-20"></div>
                 </div>
             </section>
             <ContactForm />
