@@ -2,15 +2,16 @@ import { RiMenuFill } from "react-icons/ri";
 import { IoArrowDown } from "react-icons/io5";
 import { AiOutlineClose } from "react-icons/ai";
 import { MdArrowRightAlt } from "react-icons/md";
+import Logo from '../../assets/logo.png'
 
 const NavbarMobile = () => {
     return (
         <section className="w-full p-3 flex items-center lg:hidden">
-            <img src="#" alt="Logo" />
+            <img src={Logo} alt="Logo de la empresa" />
             <div className="drawer drawer-end justify-end">
                 <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content">
-                <label htmlFor="my-drawer-4" className="drawer-button"><RiMenuFill className=" text-3xl text-[#002D44]" /></label>
+                <label htmlFor="my-drawer-4" className="drawer-button"><RiMenuFill className=" text-3xl text-[#1a3f58]" /></label>
                    
                 </div>
                 <div className="drawer-side">

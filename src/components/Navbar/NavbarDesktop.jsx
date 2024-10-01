@@ -1,12 +1,13 @@
 import { IoArrowDown } from "react-icons/io5";
 import { MdArrowRightAlt } from "react-icons/md";
+import Logo from '../../assets/logo.png'
 
 const NavbarDesktop = () => {
     return (
-        <nav className="hidden lg:block px-14 py-5 xl:px-24 text-lg">
-            <div className="text-[#022B41] font-extrabold lg:flex lg:justify-between lg:items-center">
+        <nav className="hidden lg:block px-14 py-5 xl:px-24">
+            <div className="text-[#143347] font-extrabold lg:flex lg:justify-between lg:items-center">
                 <div className=" flex items-center space-x-6">
-                    <img src="#" alt="Logo" title="Nombre de la empresa" />
+                    <img src={Logo} alt="Logo" title="Logo de la empresa" />
                     <ul className=" pl-5 border-2 border-y-transparent border-r-transparent border-l-[#E9E9E9] flex items-center space-x-6">
                         <li><a href="#" className=" opacity-75">Home</a></li>
                         <li><a href="#">About</a></li>
